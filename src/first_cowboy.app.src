@@ -5,13 +5,15 @@
 	{modules, []},
 	{registered, []},
 	{applications, [
-		kernel,
-		stdlib,
-		cowboy,
-		folsom,
-		bear,
-		folsom_cowboy,
-		zeta
+		kernel
+		, stdlib
+		, cowboy
+		, folsom
+		, bear
+		, folsom_cowboy
+		, zeta
+		, folsomite
+		, sasl
 	]},
 	{mod, {first_cowboy_app, []}},
         {env, [
