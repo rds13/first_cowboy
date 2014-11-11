@@ -9,8 +9,14 @@
 		stdlib,
 		cowboy,
 		folsom,
-		folsom_cowboy
+		bear,
+		folsom_cowboy,
+		zeta
 	]},
 	{mod, {first_cowboy_app, []}},
-	{env, []}
+        {env, [
+               {folsomite,
+                 [{graphite_host, "192.168.59.103"},
+                  {graphite_port, 2009}]}
+	            ]}
 ]}.
